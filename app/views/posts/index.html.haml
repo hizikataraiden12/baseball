@@ -1,0 +1,113 @@
+.main  
+  .main__leftbox
+    .header  
+      .logo= image_tag "Baseball-simulator.png" , size: "540x90"
+    .teams 
+      .member
+        .www= image_tag "chikamoto.jpg" , size: "300x400"
+        .infomations
+          %p.league-name リーグ：  セントラルリーグ
+          %p.team チーム ：  阪神タイガース
+          %p.position ポジション ：  中翼手
+          %p.player-name 選手名 ：  近本 光司 
+          %p.on-base-average 出塁率 ：  .３１３
+      .member
+        .www= image_tag "suzukiseiya.jpg" , size: "300x400"
+        .infomations
+          %p.league-name リーグ：  セントラルリーグ
+          %p.team チーム ：  広島東洋カープ
+          %p.position ポジション ：  右翼手
+          %p.player-name 選手名 ：  鈴木 誠也
+          %p.on-base-average 出塁率 ：  .４５３ 
+      .member
+        .www= image_tag "murakami.jpg" , size: "300x400"
+        .infomations
+          %p.league-name リーグ：  セントラルリーグ
+          %p.team チーム ：  東京ヤクルトスワローズ
+          %p.position ポジション ：  一塁手
+          %p.player-name 選手名 ：  村上 宗隆
+          %p.on-base-average 出塁率 ：  .３３２
+      .member
+        .www= image_tag "tsutsugo.jpeg" , size: "300x400"
+        .infomations
+          %p.league-name リーグ：  セントラルリーグ
+          %p.team チーム ：  横浜DeNAベイスタスターズ
+          %p.position ポジション ：  左翼手
+          %p.player-name 選手名 ：  筒香 嘉智
+          %p.on-base-average 出塁率 ：  .３８８
+      .member
+        .www= image_tag "yamada.jpeg" , size: "300x400"
+        .infomations
+          %p.league-name リーグ：  セントラルリーグ
+          %p.team チーム ：  東京ヤクルトスワローズ
+          %p.position ポジション ：  二塁手
+          %p.player-name 選手名 ：  山田 哲人
+          %p.on-base-average 出塁率 ：  .４０１    
+      .member
+        .www= image_tag "sakamoto.jpg" , size: "300x400"
+        .infomations
+          %p.league-name リーグ：  セントラルリーグ
+          %p.team チーム ：  読売ジャイアンツ
+          %p.position ポジション ：  遊撃手
+          %p.player-name 選手名 ：  坂本 勇人
+          %p.on-base-average 出塁率 ：  .３９６
+      .member
+        .www= image_tag "ohyama.jpeg" , size: "300x400"
+        .infomations
+          %p.league-name リーグ：  セントラルリーグ
+          %p.team チーム ：  阪神タイガース
+          %p.position ポジション ：  三塁手
+          %p.player-name 選手名 ：  大山 悠輔
+          %p.on-base-average 出塁率 ：  .３１２
+      .member
+        .www= image_tag "aizawa.jpeg" , size: "300x400"
+        .infomations
+          %p.league-name リーグ：  セントラルリーグ
+          %p.team チーム ：  広島東洋カープ
+          %p.position ポジション ：  捕手
+          %p.player-name 選手名 ：  會澤 翼
+          %p.on-base-average 出塁率 ：  .３８７       
+      .member
+        .www= image_tag "nishi.jpg" , size: "300x400"
+        .infomations
+          %p.league-name リーグ：  セントラルリーグ
+          %p.team チーム ：  阪神タイガース
+          %p.position ポジション ：  投手
+          %p.player-name 選手名 ：  西 勇輝
+          %p.on-base-average 出塁率 ：  .２５５  
+      
+  .main__rightbox
+    / 野球7回
+    .baseball.game_score
+      %table.game_box.baseball.times7
+        %tbody
+          %tr
+            %td.game_header{:colspan => "9"} 2020年6月2日div
+          %tr
+            %td.game_title{:colspan => "9"} ランダム
+          %tr
+            %td.team-name         チーム名
+            %td.game_cell_data.score １
+            %td.game_cell_data.score ２
+            %td.game_cell_data.score ３
+            %td.game_cell_data.score ４
+            %td.game_cell_data.score ５
+            %td.game_cell_data.score ６
+            %td.game_cell_data.score ７
+            %td.game_cell_data.score ８
+            %td.game_cell_data.score ９
+            %td.game_cell_data.total_score 合計
+          %tr
+            %td.team-name リトルバスターズ
+            %td.game_cell_data.score 0
+            %td.game_cell_data.score 0
+            %td.game_cell_data.score 0
+            %td.game_cell_data.score 0
+            %td.game_cell_data.score 0
+            %td.game_cell_data.score 0
+            %td.game_cell_data.score 0
+            %td.game_cell_data.score 0
+            %td.game_cell_data.score 0
+            %td.game_cell_data.total_score 0
+    .match-progress    試合結果
+    .inning  一回表の攻撃 

@@ -1,0 +1,104 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.main__rightbox {
+  height: 2400px;
+  width:  50%;
+  float: right;
+  background-color: aqua;
+  overflow: scroll;
+}
+
+.logo {
+  padding-left: 20px;
+}
+
+.header {
+  height: 112px;
+  width: 100%;
+  background-color: yellow;
+}
+
+.teams {
+  height: 100%;
+  width:  100%;
+  background-color: gray;
+}
+
+.member {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  background-color: gray;
+}
+
+.infomations {
+  height: 400px;
+  width: 300px;
+}
+
+.league-name { 
+  height: 80px;
+  width: 100%;
+  font-size: 20px;
+  margin-left: 20px;  
+}
+
+.team { 
+  height: 80px;
+  width: 100%;
+  font-size: 20px;
+  margin-left: 20px; 
+}
+
+.position {
+  height: 80px;
+  width: 100%;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.player-name { 
+  height: 80px;
+  width: 100%;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.on-base-average { 
+  height: 80px;
+  width: 100%;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.main__leftbox {
+  height: 100%;
+  width:  50%;
+  float: left;
+  background-color:white;
+}
+
+.team-name {
+  padding-right: 5px;
+  border:solid 2px white;
+}
+
+.baseball.game_score {
+  padding-left: 20px;
+  background-color: green;
+  padding-bottom: 10px;
+  
+}
+
+.game_cell_data.score {
+  border:solid 2px white;
+  padding-left: 2px;
+}
+
+.game_cell_data.total_score {
+  border:solid 2px white;
+}
